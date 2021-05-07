@@ -1,0 +1,233 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+
+@import url("../css/materialize.min.css")
+@import url("../css/animate.css")
+@import url("../css/slick.css")
+@import url("../css/slick-theme.css")
+// Variables
+
+@import 'variables'
+
+*
+    letter-spacing: 3px
+    font-family: $font-principal
+
+input
+    text-indent: 10px
+    letter-spacing: 0px
+select,textarea,.btn,.btn_2,a
+    letter-spacing: 0px
+
+@import 'header'
+@import 'components/home/banner'
+@import 'components/home/ultimate'
+@import 'components/home/artist'
+@import 'components/home/category'
+@import 'components/terms/info'
+@import 'components/galery/filter'
+@import 'components/galery/list'
+@import 'components/product/related'
+@import 'components/product/description'
+@import 'components/artist/info'
+@import 'components/artist/banner'
+@import 'components/about/banner'
+@import 'components/about/master'
+@import 'components/about/museum'
+@import 'components/about/curators'
+@import 'components/contact/contact'
+@import 'components/howbuy/info'
+@import 'components/modal/login'
+@import 'components/account/form'
+@import 'components/account/historial'
+@import 'components/account/wishlist'
+@import 'components/sell/banner'
+@import 'components/sell/steps'
+@import 'components/shop/info'
+@import 'components/order/form'
+@import 'footer'
+
+.navbar-laravel
+  background-color: #fff
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04)
+
+html
+  line-height: 0 !important
+  overflow: scroll
+  -webkit-overflow-scrolling: touch
+  overflow-x: hidden
+
+.content
+  visibility: hidden
+  width: 100% !important
+
+#content
+  overflow: hidden !important
+  @media screen and (min-width: 2000px)
+    max-width: 2000px
+    margin-left: auto !important
+    margin-right: auto !important
+    display: block !important
+    vertical-align: middle !important
+
+body
+  background: #ffffff
+
+#loading
+  position: fixed
+  z-index: 555555555555555555555
+  display: block
+  height: 100vh
+  width: 100%
+  background: $white
+  overflow: hidden
+  div
+    text-align: center
+    position: fixed
+    top: 42%
+    width: 100%
+    height: 80px
+    img
+      width: 300px
+      @media screen and (max-width: 600px)
+        width: 50%
+
+.align-center
+  text-align: center
+  margin-left: auto !important
+  margin-right: auto !important
+  display: block !important
+  vertical-align: middle !important
+
+.absoluteCenter
+  position: absolute
+  margin-left: auto
+  margin-right: auto
+  left: 0
+  right: 0
+
+.vhd
+  visibility: hidden !important
+
+.spaceador
+  height: 80px
+  width: 100%
+  background: transparent
+  display: block
+  @media screen and (max-width: 992px)
+    display: block !important
+    height: 70px
+  @media screen and (max-width: 600px)
+    height: 70px
+
+.swal-icon
+  img
+    max-width: 40% !important
+    @media screen and (max-width: 600px)
+      max-width: 60% !important
+
+.swal-button--confirm
+  background: $color-principal!important
+
+.swal-button:active
+  background-color: $color-principal !important
+
+.swal-button
+  background-color: $color-principal !important
+  color: #ffffff
+  font-weight: bold
+
+.swal-button--cancel
+  color: $color-secundario
+  background-color: #ffffff !important
+  border: 1px solid $color-secundario !important
+
+.slick-slide:focus, a, .modal, select
+  outline: none !important
+
+.datepicker-date-display,.timepicker-digital-display
+  background: $color-secundario !important
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done,.timepicker-close
+  color: $color-secundario !important
+
+.datepicker-table td.is-today
+  color: $color-secundario !important
+
+.datepicker-table td.is-selected
+  background: $color-secundario !important
+  color: #ffffff !important
+
+.datepicker-controls .select-month input
+  width: 85px !important
+
+.btnAccount
+  padding: 0% 4% !important
+  background: $color-secundario !important
+  height: 30px !important
+  line-height: 30px !important
+  border: 1px solid transparent !important
+  width: auto !important
+  color: #ffffff !important
+  font-weight: 700 !important
+  font-size: 7pt !important
+  margin-top: 2% !important
+  margin-bottom: 5% !important
+  -webkit-box-shadow: 0 2px 2px 0 $color-secundario, 0 3px 1px -2px $color-secundario, 0 1px 5px 0 $color-secundario !important
+  box-shadow: 0 2px 2px 0 $color-secundario, 0 3px 1px -2px $color-secundario, 0 1px 5px 0 $color-secundario !important
+  text-transform: uppercase !important
+  letter-spacing: 2px !important
+  &:hover
+    cursor: pointer !important
+    background: #ffffff !important
+    color: $color-secundario !important
+    border: 1px solid $color-secundario !important
+
+button
+  .btnAccount
+    width: 100% !important
+
+.error
+  border: 1px solid red !important
+  &:focus
+    //border: 1px solid red !important
+
+.swal-modal
+  background: $color-cuarto
+
+.swal-text
+  text-align: center
+  color: $color-secundario
+
+.prod_col
+  margin-top: 10px
+
+.deleteElem
+  position: absolute
+  padding: 5px
+  color: white
+  background-color: #E54C48
+  border-radius: 5px
+  cursor: pointer
+
+.category-quote
+  text-align: center
+.cant-quote
+  display: flex
+  justify-content: center
+  .col
+    padding: 0px
+    margin: 0 !important
+    cursor: pointer
+    i
+      -webkit-user-select: none
+      -moz-user-select: none
+      -ms-user-select: none
+      user-select: none
+      color: #E54C48
+  input
+    width: 100%
+    text-align: center
+

@@ -1,0 +1,152 @@
+.sectionAccount
+    width: 100%
+    padding: 4% 0%
+    @media screen and (max-width: 600px)
+        padding: 10% 0%
+    .rowOne
+        width: 80%
+        margin-bottom: 0%
+        @media screen and (max-width: 600px)
+            width: 90%
+        h2,h3,h4,h5,h6,span,td,th,tr
+            letter-spacing: 0px
+        h1
+            margin: 0%
+            margin-bottom: 4%
+            padding-bottom: 3%
+            font-size: 65px
+            text-align: center
+            font-weight: 700
+            color: $color-terciario
+            border-bottom: 1px solid $color-quinto
+            @media screen and (max-width: 600px)
+                font-size: 30px
+        .menu
+            width: 100%
+            padding: 0% 5%
+            @media screen and (max-width: 600px)
+                display: none
+            .btn
+                width: 100%
+                margin-bottom: 4%
+                height: 45px
+                line-height: 45px
+                text-align: center
+                text-transform: uppercase
+                box-shadow: none
+                -webkit-box-shadow: none
+                -moz-box-shadow: none
+                border: 1px solid $color-quinto
+                font-size: 20px
+                color: $color-terciario
+                font-weight: 400
+                border-radius: 25px
+                background: transparent
+            .active
+                background: $color-principal
+                border: 1px solid $color-principal
+                color: $color-cuarto
+
+.sectionAccountForm
+    form
+        .row
+            width: 100%
+            padding: 0% !important
+            margin: 0% !important
+            .col
+                margin: 1% 0% !important
+        h2
+            margin: 0% 0%
+            height: 45px
+            line-height: 45px
+            font-size: 18px
+            text-align: left
+            font-weight: 400
+            color: $color-terciario
+            text-transform: uppercase
+            @media screen and (max-width: 600px)
+                height: 35px
+                line-height: 35px
+                br
+                    display: none
+        h3
+            margin: 0% 0%
+            font-size: 20px
+            text-align: left
+            font-weight: 700
+            color: $color-terciario
+            text-transform: uppercase
+        .h2
+            line-height: 25px
+            @media screen and (max-width: 600px)
+                line-height: 35px
+        input,select
+            background: $color-cuarto !important
+            border-radius: 25px !important
+            text-align: left
+            border: 1px solid $color-terciario !important
+            margin: 0 !important
+            color: $color-secundario
+            font-weight: 400
+            font-size: 18px
+            height: 45px !important
+            line-height: 45px
+            width: 97% !important
+            padding-left: 10px !important
+            @media screen and (max-width: 600px)
+                padding-left: 10px !important
+                width: 97% !important
+                height: 40px !important
+                line-height: 40px
+                font-size: 16px
+            &:focus
+                border-bottom: 1px solid $color-terciario !important
+                -webkit-box-shadow: none !important
+                box-shadow: none !important
+            &::placeholder
+                opacity: 0.5
+                font-weight: 400
+                font-size: 18px
+                color: $color-terciario
+                @media screen and (max-width: 600px)
+                    text-align: center
+                    font-size: 16px
+        select,textarea
+            width: 98.5% !important
+            @media screen and (max-width: 600px)
+                width: 100% !important
+        .error
+            border: 1px solid red !important
+            &:focus
+                border-bottom: 1px solid red !important
+        .button
+            text-align: center
+            .btn
+                background: $color-septimo
+                color: $color-cuarto
+                border-radius: 25px
+                font-size: 18px
+                padding: 0% 2%
+                margin-top: 2%
+                height: 45px
+                line-height: 45px
+                font-weight: 700
+                -webkit-box-shadow: none
+                -moz-box-shadow: none
+                box-shadow: none
+                text-align: center
+                text-transform: uppercase
+                margin-right: 10px
+                @media screen and (max-width: 600px)
+                    padding: 0% 8%
+                    margin-bottom: 8%
+                    height: 40px
+                    line-height: 40px
+                &:hover
+                    -webkit-box-shadow: 0px 10px 29px -6px rgba(0,0,0,0.31)
+                    -moz-box-shadow: 0px 10px 29px -6px rgba(0,0,0,0.31)
+                    box-shadow: 0px 10px 29px -6px rgba(0,0,0,0.31)
+                    background: $color-principal
+                    transition: transform 0.5s
+                    transform: scale(1.05)
+                    cursor: pointer

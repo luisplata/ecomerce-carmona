@@ -1,0 +1,79 @@
+.sectionArtistHome
+    background-position: top center
+    background-repeat: no-repeat
+    background-size: cover
+    width: 100%
+    padding: 5% 0%
+    @media screen and (max-width: 600px)
+        padding: 12% 0%
+        background-size: 400%
+        background-position: 0% center
+    .rowOne
+        width: 80%
+        margin-bottom: 0%
+        @media screen and (max-width: 600px)
+            width: 90%
+        h1
+            font-size: 40px
+            color: $color-cuarto
+            font-weight: 700
+            margin: 0%
+            text-align: center
+            letter-spacing: 8px
+            @media screen and (max-width: 600px)
+                font-size: 20px
+        .sliderArtist
+            margin-top: 3%
+            width: 100%
+            position: relative
+            .arrowLeft,.arrowRight
+                position: absolute
+                top: 28%
+                width: 45pt
+                z-index: 2
+                @media screen and (max-width: 600px)
+                    width: 25pt
+                    top: 30%
+                &:hover
+                    cursor: pointer
+            .arrowLeft
+                left: -5%
+            .arrowRight
+                right: -5%
+            #sliderArtist
+                .element
+                    width: 100%
+                    padding: 0% 2%
+                    text-align: center
+                    @media screen and (max-width: 600px)
+                        padding: 0% 5%
+                    .img
+                        margin-bottom: 0
+                        background-color: transparent
+                        display: block
+                        width: 100%
+                        div
+                            display: block
+                            overflow: hidden
+                            padding-bottom: 60%
+                            position: relative
+                            img
+                                height: auto
+                                -webkit-user-select: none
+                                -moz-user-select: none
+                                -ms-user-select: none
+                                user-select: none
+                                width: 100%
+                                left: 0
+                                position: absolute
+                                bottom: 0
+                    h2
+                        font-size: 20px
+                        color: $color-cuarto
+                        font-weight: 700
+                        margin: 2% 0%
+                    h3
+                        font-size: 20px
+                        color: $color-cuarto
+                        font-weight: 300
+                        margin: 0% 0%

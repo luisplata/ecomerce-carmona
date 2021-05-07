@@ -1,0 +1,126 @@
+.sectionRelatedProduct
+    width: 100%
+    padding: 5% 0%
+    @media screen and (max-width: 600px)
+        padding: 10% 0%
+    .rowOne
+        width: 80%
+        margin-bottom: 0%
+        @media screen and (max-width: 600px)
+            width: 90%
+        h1
+            font-size: 40px
+            color: $color-terciario
+            font-weight: 700
+            margin: 0%
+            text-align: left
+            @media screen and (max-width: 600px)
+                font-size: 30px
+                text-align: center
+        .sliderRelated
+            margin-top: 2%
+            width: 100%
+            position: relative
+            .arrowLeft,.arrowRight
+                position: absolute
+                top: 25%
+                width: 30pt
+                z-index: 2
+                @media screen and (max-width: 600px)
+                    width: 20pt
+                    top: 33%
+                &:hover
+                    cursor: pointer
+            .arrowLeft
+                left: -5%
+            .arrowRight
+                right: -5%
+            #sliderRelated
+                .element
+                    width: 100%
+                    padding: 0% 2%
+                    text-align: center
+                    position: relative
+                    @media screen and (max-width: 600px)
+                        padding: 0% 5%
+                    .descount
+                        background: $color-11
+                        z-index: 2
+                        width: auto
+                        padding: 2% 4%
+                        top: 1%
+                        left: 10%
+                        position: absolute
+                        //display: none
+                        span,h6
+                            margin: 1% 0%
+                            font-size: 15px
+                            font-weight: 700
+                            color: $color-cuarto
+                            position: relative
+                            top: 50%
+                            left: 0%
+                            width: 100%
+                            text-align: center
+                    .img
+                        display: table
+                        width: 100%
+                        margin: 0 auto
+                        padding: 0% 10%
+                        div
+                            display: table-cell
+                            height: 250px
+                            vertical-align: middle
+                            img
+                                text-align: center
+                                margin-left: auto !important
+                                margin-right: auto !important
+                                display: block !important
+                                vertical-align: middle !important
+                                max-width: 100%
+                                max-height: 100%
+                                bottom: 0px
+                                &:hover
+                                    transition: transform 0.5s
+                                    transform: scale(1.1)
+                    //.img
+                        margin-bottom: 0
+                        background-color: #fff
+                        display: block
+                        width: 100%
+                        div
+                            display: block
+                            overflow: hidden
+                            padding-bottom: 60%
+                            position: relative
+                            img
+                                height: auto
+                                -webkit-user-select: none
+                                -moz-user-select: none
+                                -ms-user-select: none
+                                user-select: none
+                                width: 100%
+                                left: 0
+                                position: absolute
+                                bottom: 0
+                    h2
+                        font-size: 20px
+                        color: $color-secundario
+                        font-weight: 700
+                        margin: 3% 0%
+                    //h3
+                        font-size: 16px
+                        color: $color-terciario
+                        font-weight: 300
+                        margin: 3% 0%
+                    h3
+                        font-size: 25px
+                        font-weight: 700
+                        color: $color-secundario
+                        margin: 2% 0%
+                        span
+                            letter-spacing: 0px
+                            color: $color-quinto
+                            opacity: 0.5
+                            font-size: 18px
+                            text-decoration: line-through

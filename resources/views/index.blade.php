@@ -1,0 +1,25 @@
+@extends('template.layout')
+@section('title', 'Carmona')
+@section('style')
+@endsection
+@section('content')
+    @component('components.home.banner',[
+        'banner'=>$banner
+    ])
+    @endcomponent
+    @component('components.home.ultimate',[
+        'obras'=>$obras
+    ])
+    @endcomponent
+    @component('components.home.artists',[
+        'artist'=>$artist
+    ])
+    @endcomponent
+    @component('components.home.category',[
+        'webInfo'=>$webInfo,
+        'category'=>$category
+    ])
+    @endcomponent
+@endsection
+@section('script')
+@endsection

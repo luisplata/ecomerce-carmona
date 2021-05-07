@@ -1,0 +1,213 @@
+.sectionFormOrder
+    width: 100%
+    padding: 4% 0%
+    @media screen and (max-width: 600px)
+        padding: 10% 0%
+    h2,h3,h4,h5,h6,span,td,th,tr
+        letter-spacing: 0px
+    .rowOne
+        width: 70%
+        margin-bottom: 0%
+        @media screen and (max-width: 600px)
+            width: 90%
+        h1
+            margin: 0%
+            font-size: 40px
+            font-weight: 700
+            color: $color-terciario
+            text-align: center
+            @media screen and (max-width: 600px)
+                font-size: 30px
+        h2
+            margin: 1% 0%
+            font-size: 18px
+            font-weight: 400
+            color: $color-diez
+            text-align: center
+            &:hover
+                cursor: pointer
+        form
+            .row
+                width: 100%
+                padding: 0% !important
+                margin: 0% !important
+                .col
+                    margin: 1% 0% !important
+            h2
+                margin: 0% 0%
+                height: 45px
+                line-height: 45px
+                font-size: 18px
+                text-align: left
+                font-weight: 400
+                color: $color-terciario
+                @media screen and (max-width: 600px)
+                    height: 35px
+                    line-height: 35px
+                    br
+                        display: none
+                span
+                    font-weight: 700
+                    color: $color-11
+            .h2
+                line-height: 25px
+            input,select,textarea
+                background: $color-cuarto !important
+                border-radius: 25px !important
+                text-align: left
+                border: 1px solid $color-terciario !important
+                margin: 0 !important
+                color: $color-secundario
+                font-weight: 400
+                font-size: 18px
+                height: 45px !important
+                line-height: 45px
+                width: 97% !important
+                padding-left: 10px !important
+                @media screen and (max-width: 600px)
+                    padding-left: 0px !important
+                    width: 100% !important
+                    height: 40px !important
+                    line-height: 40px
+                    font-size: 16px
+                &:focus
+                    border-bottom: 1px solid $color-terciario !important
+                    -webkit-box-shadow: none !important
+                    box-shadow: none !important
+                &::placeholder
+                    opacity: 0.5
+                    font-weight: 400
+                    font-size: 18px
+                    color: $color-terciario
+                    @media screen and (max-width: 600px)
+                        text-align: center
+                        font-size: 16px
+            select,textarea
+                width: 98.5% !important
+                @media screen and (max-width: 600px)
+                    width: 101% !important
+            textarea
+                height: 100px !important
+                min-height: 100px !important
+                max-height: inherit !important
+                @media screen and (max-width: 600px)
+                    line-height: 20px
+                    border-radius: 15px
+            .error
+                border: 1px solid red !important
+                &:focus
+                    border-bottom: 1px solid red !important
+            .button
+                text-align: right
+                @media screen and (max-width: 600px)
+                    text-align: center
+                .btn
+                    background: $color-septimo
+                    color: $color-cuarto
+                    border-radius: 25px
+                    font-size: 18px
+                    padding: 0% 5%
+                    margin-top: 2%
+                    height: 45px
+                    line-height: 45px
+                    font-weight: 400
+                    -webkit-box-shadow: none
+                    -moz-box-shadow: none
+                    box-shadow: none
+                    text-align: center
+                    text-transform: uppercase
+                    margin-right: 10px
+                    @media screen and (max-width: 600px)
+                        padding: 0% 8%
+                        font-size: 16px
+                    &:hover
+                        -webkit-box-shadow: 0px 10px 29px -6px rgba(0,0,0,0.31)
+                        -moz-box-shadow: 0px 10px 29px -6px rgba(0,0,0,0.31)
+                        box-shadow: 0px 10px 29px -6px rgba(0,0,0,0.31)
+                        background: $color-principal
+                        transition: transform 0.5s
+                        transform: scale(1.05)
+                        cursor: pointer
+            h3
+                margin: 0% 0%
+                font-size: 18px
+                text-align: left
+                font-weight: 400
+                color: $color-terciario
+                span
+                    font-weight: 700
+            .h3
+                text-align: center
+            table
+                width: 100%
+                thead
+                    background: $color-septimo
+                    th
+                        border-radius: 0px
+                        color: $color-cuarto
+                        padding: 25px 5px
+                        font-size: 18px
+                        text-align: center
+                        font-weight: 400
+                    .none
+                        @media screen and (max-width: 600px)
+                            display: none
+                tbody
+                    .cantidad
+                        display: none
+                        @media screen and (max-width: 600px)
+                            display: block
+                    tr
+                        margin: 2% 0%
+                        border-bottom: 1px solid $color-septimo
+                    .tdborder
+                        height: 45px
+                        line-height: 45px
+                        border-left: 1px solid $color-septimo
+                        border-right: 1px solid $color-septimo
+                        @media screen and (max-width: 600px)
+                            border: none
+                    .tdborder_2
+                        line-height: 25px
+                    td
+                        padding: 15px 5px
+                        @media screen and (max-width: 600px)
+                            display: block !important
+                            width: 100%
+                            padding: 2px 5px
+                    .total
+                        height: 50px
+                        line-height: 50px
+                        background: $color-septimo
+                        font-weight: 700
+                        color: $color-cuarto
+                        text-align: center
+                    .h3_total
+                        height: 50px
+                        line-height: 50px
+                        @media screen and (max-width: 600px)
+                            height: 35px !important
+                            line-height: 35px !important
+                    .td_total
+                        padding: 0px 5px
+                        padding-bottom: 25px
+                        @media screen and (max-width: 600px)
+                            padding-bottom: 5px
+                    .none
+                        @media screen and (max-width: 600px)
+                            display: none !important
+            p
+                @media screen and (max-width: 600px)
+                    input
+                        width: 10px !important
+                [type="checkbox"].filled-in+span:not(.lever):after
+                    border-radius: 0px
+                [type="checkbox"].filled-in:not(:checked)+span:not(.lever):after
+                    border: 1px solid $color-terciario
+                [type="checkbox"].filled-in:checked+span:not(.lever):after
+                    background-color: $color-septimo
+                    border: 1px solid $color-septimo
+                label span
+                    font-size: 16px
+                    font-weight: 400
+                    color: $color-terciario

@@ -1,0 +1,162 @@
+.modalLogin
+    width: 100%
+    top: 0% !important
+    height: 100vh
+    max-height: 100%
+    overflow: auto
+    background: transparent
+    .modal-content
+        padding-bottom: 0px
+        @media screen and (max-width: 600px)
+            padding: 0px 0%
+    .rowOne
+        border-radius: 0px
+        width: 40%
+        margin-top: -1.7%
+        margin-bottom: 0% !important
+        position: relative
+        height: 100vh
+        padding: 4% 4% !important
+        background: $color-cuarto
+        overflow: hidden
+        @media screen and (min-width: 1550px)
+            width: 60%
+        @media screen and (max-width: 991px)
+            width: 90%
+        @media screen and (max-width: 600px)
+            width: 98%
+        @media screen and (max-width: 600px)
+            height: 100vh
+            margin-top: 0%
+            padding: 10% 5% !important
+            width: 100%
+        .closeModal
+            position: absolute
+            right: 3%
+            top: 4%
+            z-index: 4
+            font-size: 40px
+            font-weight: 700
+            color: $color-principal
+            opacity: 1
+            @media screen and (max-width: 600px)
+                top: 4%
+                right: 5%
+        h1
+            margin: 2% 0%
+            margin-bottom: 4%
+            font-size: 40px
+            font-weight: 700
+            color: $color-terciario
+            text-align: center
+            @media screen and (max-width: 600px)
+                font-size: 30px
+        .input-field
+            margin: 0%
+            margin-bottom: 2%
+            .input_eye
+                position: absolute
+                right: 6%
+                top: 33%
+                &:hover
+                    cursor: pointer
+        input
+            width: 100%
+            padding: 0px 0px
+            text-align: left
+            border-radius: 21px
+            border: 1px solid $color-quinto
+            font-size: 18px
+            height: 45px
+            line-height: 45px
+            font-weight: 400
+            color: $color-terciario
+            @media screen and (max-width: 600px)
+                font-size: 16px
+            &:focus
+                border-bottom: 1px solid $color-terciario !important
+                box-shadow: none !important
+                -webkit-box-shadow: none !important
+                -moz-box-shadow: none !important
+            &::placeholder
+                color: $color-terciario
+                font-size: 18px
+                opacity: 0.5
+                @media screen and (max-width: 600px)
+                    font-size: 16px
+        .error
+            border: 1px solid red !important
+            &:focus
+                border-bottom: 1px solid red !important
+        .button
+            text-align: center
+            .btn
+                width: auto
+                margin: 0% 0%
+                padding: 0% 8%
+                font-size: 18px
+                font-weight: 700
+                color: $color-cuarto
+                text-transform: inherit
+                border-radius: 38px
+                background: $color-septimo
+                box-shadow: none
+                -webkit-box-shadow: none
+                -moz-box-shadow: none
+                height: 45px
+                line-height: 45px
+                @media screen and (max-width: 600px)
+                    height: 40px
+                    line-height: 40px
+        h3
+            margin: 5% 0%
+            font-size: 18px
+            font-weight: 400
+            color: $color-terciario
+            text-align: center
+            &:hover
+                cursor: pointer
+        .btn_2
+            font-weight: 500
+            color: $color-terciario
+            background: $color-cuarto
+            width: 100%
+            margin: 0% 0%
+            margin-bottom: 10%
+            font-size: 18px
+            text-transform: inherit
+            border-radius: 38px
+            box-shadow: none
+            -webkit-box-shadow: none
+            -moz-box-shadow: none
+            height: 40px
+            line-height: 40px
+            text-align: center
+            background: $color-cuarto
+            border: 1px solid $color-terciario
+            @media screen and (max-width: 600px)
+                margin-bottom: 4%
+        .active
+            border: 1px solid $color-principal
+            font-weight: 700
+            color: $color-cuarto
+            background: $color-principal
+        p
+            [type="checkbox"].filled-in:not(:checked)+span:not(.lever):after
+                top: 3px
+                border: 1px solid $color-quinto
+            [type="checkbox"].filled-in:checked+span:not(.lever):after
+                top: 3px
+                border: 1px solid $color-principal
+                background-color: $color-principal
+            [type="checkbox"].filled-in:checked+span:not(.lever):before
+                top: 3px
+            span
+                font-size: 16px
+                font-weight: 300
+                color: $color-quinto
+                opacity: 1
+                line-height: 18px
+                letter-spacing: 0px
+                span1
+                    font-weight: 600

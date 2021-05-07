@@ -1,0 +1,42 @@
+.sectionBanner
+    width: 100%
+    .rowOne
+        width: 100%
+        padding: 0% !important
+        margin: 0% !important
+        .col
+            padding: 0% !important
+            margin: 0% !important
+        .sliderBanner
+            width: 100%
+            margin-bottom: 0%
+            img
+                width: 100%
+            .desktop
+                @media screen and (max-width: 600px)
+                    display: none
+            .mobile
+                display: none
+                @media screen and (max-width: 600px)
+                    display: block
+            .slick-dots
+                bottom: 45%
+                right: 0%
+                display: grid
+                width: 40px
+                @media screen and (max-width: 600px)
+                    display: grid
+                    bottom: 35%
+                    //width: 100%
+                li
+                    margin: 5px 0
+                    @media screen and (max-width: 600px)
+                        margin: 2px 0
+                li button:before
+                    font-size: 40px
+                    opacity: 1
+                    color: $color-quinto
+                li.slick-active button:before
+                    font-size: 60px
+                    opacity: 1
+                    color: $color-quinto

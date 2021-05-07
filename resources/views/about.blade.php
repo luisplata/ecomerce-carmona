@@ -1,0 +1,24 @@
+@extends('template.layout')
+@section('title', 'Acerca de')
+@section('style')
+@endsection
+@section('content')
+    @component('components.about.banner',[
+        'webInfo'=>$webInfo
+    ])
+    @endcomponent
+    @component('components.about.master',[
+        'webInfo'=>$webInfo
+    ])
+    @endcomponent
+    @component('components.about.museum',[
+        'webInfo'=>$webInfo
+    ])
+    @endcomponent
+    @component('components.about.curators',[
+        'webInfo'=>$webInfo
+    ])
+    @endcomponent
+@endsection
+@section('script')
+@endsection

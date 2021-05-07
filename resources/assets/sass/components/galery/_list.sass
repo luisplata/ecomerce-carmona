@@ -1,0 +1,176 @@
+.sectionListGalery
+    width: 100%
+    padding: 3% 0%
+    @media screen and (max-width: 600px)
+        padding: 5% 0%
+    .loader
+        text-align: center
+        img
+            width: 8%
+    .notProductos
+        margin-top: 2%
+        text-align: center
+        width: 100%
+        padding: 0% 13%
+        h6
+            font-size: 19px
+            text-transform: uppercase
+            color: $color-principal
+            text-align: center
+        .progress
+            background-color: $color-terciario
+            height: 7px
+            .indeterminate
+                background: $color-principal
+    .row
+        width: 90%
+        margin-left: 5%
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        -ms-flex-wrap: wrap
+        flex-wrap: wrap
+        .larger
+            -ms-flex: 0 0 100% !important
+            flex: 0 0 100% !important
+            h6
+                text-align: center !important
+                font-weight: 700 !important
+        .column
+            float: initial
+            flex-basis: 0
+            -webkit-box-flex: 1
+            -ms-flex-positive: 1
+            flex-grow: 1
+            margin-left: initial
+            -webkit-box-flex: 0
+            -ms-flex: 0 0 33.3333333333%
+            flex: 0 0 33.3333333333%
+            padding: 0% 3%
+            @media screen and (max-width: 600px)
+                -ms-flex: 0 0 100%
+                flex: 0 0 100%
+            .element
+                width: 100%
+                padding: 0% 0%
+                text-align: center
+                margin-bottom: 10%
+                position: relative
+                &:hover
+                    //transition: transform 0.5s
+                    //transform: scale(1.1)
+                    //-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.16)
+                    //-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.16)
+                    //box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.16)
+                    cursor: pointer
+                    //.float
+                        visibility: inherit !important
+                .img
+                    display: table
+                    width: 100%
+                    margin: 0 auto
+                    padding: 0% 10%
+                    div
+                        display: table-cell
+                        height: 250px
+                        vertical-align: middle
+                        img
+                            text-align: center
+                            margin-left: auto !important
+                            margin-right: auto !important
+                            display: block !important
+                            vertical-align: middle !important
+                            max-width: 100%
+                            max-height: 100%
+                            bottom: 0px
+                            &:hover
+                                transition: transform 0.5s
+                                transform: scale(1.1)
+                //.img
+                    margin-bottom: 0
+                    background-color: #fff
+                    display: block
+                    width: 100%
+                    div
+                        display: block
+                        overflow: hidden
+                        padding-bottom: 90%
+                        position: relative
+                        img
+                            height: auto
+                            -webkit-user-select: none
+                            -moz-user-select: none
+                            -ms-user-select: none
+                            user-select: none
+                            width: 180%
+                            right: 0
+                            position: absolute
+                            top: 0
+                .descount
+                    background: $color-11
+                    z-index: 2
+                    width: auto
+                    padding: 2% 4%
+                    top: 1%
+                    left: 10%
+                    position: absolute
+                    //display: none
+                    span,h6
+                        margin: 1% 0%
+                        font-size: 15px
+                        font-weight: 700
+                        color: $color-cuarto
+                        position: relative
+                        top: 50%
+                        left: 0%
+                        width: 100%
+                        text-align: center
+                    img
+                        display: none
+                        width: 100%
+                .float
+                    //visibility: hidden
+                    //background: rgba(45,45,45,0.48)
+                    position: relative
+                    bottom: 0%
+                    width: 100%
+                    left: 0%
+                    //border-top: 1px solid $color-quinto
+                    padding: 4% 0%
+                    h1
+                        font-size: 30px
+                        font-weight: 700
+                        color: $color-secundario
+                        margin: 0%
+                    h2
+                        font-size: 20px
+                        font-weight: 300
+                        color: $color-secundario
+                        margin: 2% 0%
+                    h3
+                        font-size: 25px
+                        font-weight: 700
+                        color: $color-secundario
+                        margin: 2% 0%
+                        span
+                            letter-spacing: 0px
+                            color: $color-quinto
+                            opacity: 0.5
+                            font-size: 18px
+                            text-decoration: line-through
+                    .btn
+                        width: auto
+                        padding: 0% 12%
+                        margin: 0% 0%
+                        background: $color-septimo
+                        color: $color-cuarto
+                        font-size: 16px
+                        font-weight: 700
+                        text-transform: inherit
+                        box-shadow: none
+                        -webkit-box-shadow: none
+                        -moz-box-shadow: none
+                        border-radius: 25px
+                        border: 1px solid transparent
+                        height: 40px
+                        line-height: 40px
